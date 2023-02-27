@@ -1,0 +1,7 @@
+mkdocs-material
+mkdocs-minify-plugin
+mkdocs-redirects
+mkdocs-git-revision-date-localized-plugin
+# cairosvg on mac will liss libraries have to fix that for social plubin to work
+# pillow
+# cairosvg
