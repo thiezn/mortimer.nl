@@ -5,6 +5,9 @@ Using Materials for mkdocs to write my personal website. It's a great looking si
 https://squidfunk.github.io/mkdocs-material/getting-started/
 
 
+Got the idea to use this from https://github.com/Hacking-the-Cloud/hackingthe.cloud
+
+
 ## Build locally
 
 mkdocs serve

@@ -1,11 +1,18 @@
 site_name: mortimer.nl
+site_description: Personal website of Mathijs Mortimer.
+site_url: https://www.mortimer.nl
+
+docs_dir: content
+
+repo_name: Mathijs Mortimer
+repo_url: https://github.com/thiezn/mortimer.nl
+edit_uri: edit/main/content/
 
 theme:
   name: material
-  logo: images/logo.png
-  favicon: images/logo.png
-  repo_url: https://github.com/thiezn/mortimer.nl
-  edit_uri: edit/main/docs/
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+
   icon:
     repo: fontawesome/brands/git-alt
     edit: material/pencil
@@ -15,12 +22,6 @@ theme:
     - navigation.indexes
     - content.action.edit
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to system preference
-
     # Palette toggle for dark mode
     - scheme: slate
       primary: blue
@@ -37,14 +38,24 @@ theme:
         icon: material/toggle-switch
         name: Switch to Light Mode
 
-nav:
-  - Blog:
-    - blog/index.md
+markdown_extensions:
+  - md_in_html
+  - tables
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search
-  # - blog:
-  #     blog_toc: true
+  - glightbox
   # - social
   - minify:
       minify_html: true
