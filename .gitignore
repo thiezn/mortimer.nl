@@ -1,0 +1,14 @@
+# Zola build output
+public/
+# Zola cache
+.cache/
+# Zola Sass cache
+.sass-cache/
+# Logs
+*.log
+# OS generated files
+.DS_Store
+Thumbs.db
+# Rust build artifacts
+target/
+Cargo.lock

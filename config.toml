@@ -1,0 +1,59 @@
+title = "Mortimer.nl"
+base_url = "https://www.mortimer.nl"
+# theme = "simple-dev-blog-zola-starter"
+author = "Mathijs Mortimer"
+
+description = "Personal website of Mathijs Mortimer"
+default_language = "en"
+generate_robots_txt = true
+build_search_index = true
+generate_sitemap = true
+minify_html = true
+compile_sass = true
+generate_feeds = true
+# definition_list = true
+taxonomies = [
+    {name = "tags", feed = true}, # each tag will have its own feed
+    {name = "categories", paginate_by = 5},  # 5 items per page for a term
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true 
+error_on_missing_highlight = false
+highlight_theme = "ascetic-white" # https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting
+
+
+[extra]
+
+dark_mode = false
+
+nav = [
+  { name = "About", path = "/about/" },
+  { name = "Blog", path = "/blog/" }
+]
+
+latest_text = "Check out my latest post:"
+
+icon = "icon.png"
+profile_small = "icon.png"
+profile_large = "profile.jpg"
+
+accent = "#4169e1"
+accent_light = "#6a89d4"
+
+footer_about = """
+<br>
+<a href="https://x.com/thiezn_" target="_blank"><img src="/icons/x.svg" alt="X" width="24" height="24"></a>
+<a href="https://www.linkedin.com/in/mathijs-mortimer-3776512" target="_blank"><img src="/icons/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
+<a href="https://github.com/thiezn" target="_blank"><img src="/icons/github.svg" alt="GitHub" width="24" height="24"></a>
+"""
+
+footer_page = """
+© 2025 Mathijs Mortimer.
+"""
+
+not_found_message = """
+This is not the page you're looking for... return back to [safety?](/)
+"""
