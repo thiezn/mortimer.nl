@@ -1,14 +1,23 @@
-# Zola build output
-public/
-# Zola cache
-.cache/
-# Zola Sass cache
-.sass-cache/
-# Logs
-*.log
-# OS generated files
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
 .DS_Store
 Thumbs.db
-# Rust build artifacts
-target/
-Cargo.lock
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
