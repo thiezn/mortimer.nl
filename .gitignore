@@ -1,12 +1,35 @@
 node_modules
+.npm-cache
+website/.svelte-kit
+website/.npm-cache
+
+.DS_Store
+node_modules
+dist
+test-results/
+package-lock.json
+yarn.lock
+vite.config.js.timestamp-*
+/packages/package/test/**/package
+/documentation/types.js
+.svelte-kit
+.cloudflare
+.pnpm-debug.log
+.netlify
+.turbo
+.vercel
+.test-tmp
+symlink-from
+.idea/
 
 # Output
 .output
 .vercel
 .netlify
 .wrangler
-/.svelte-kit
+.svelte-kit
 /build
+
 
 # OS
 .DS_Store

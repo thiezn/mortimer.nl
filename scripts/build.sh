@@ -34,8 +34,34 @@ else
 	echo "Skipping npm update: npm is not installed."
 fi
 
-echo "Updating project dependencies to their latest compatible versions..."
-# bun update --latest
+needs_install="false"
+
+if [ ! -d "node_modules" ]; then
+	needs_install="true"
+	install_reason="node_modules is missing"
+elif [ ! -x "node_modules/.bin/svelte-kit" ]; then
+	needs_install="true"
+	install_reason="the local svelte-kit binary is missing"
+fi
+
+if [ "$needs_install" = "true" ]; then
+	echo "Installing project dependencies because $install_reason..."
+	if command -v npm >/dev/null 2>&1; then
+		npm_config_cache="$npm_cache_dir" npm install
+	elif command -v bun >/dev/null 2>&1; then
+		bun install
+	else
+		echo "Error: neither npm nor bun is installed, so dependencies cannot be installed."
+		exit 1
+	fi
+else
+	echo "Project dependencies already installed."
+fi
+
+if [ ! -x "node_modules/.bin/svelte-kit" ]; then
+	echo "Error: dependency bootstrap failed; node_modules/.bin/svelte-kit is still missing."
+	exit 1
+fi
 
 echo "Running checks..."
 bun run check
