@@ -11,3 +11,6 @@ echo "Building the site. Github pages supports the docs/ folder out of the box. 
 echo "TODO: mdsite should probably clean the output directory automatically?"
 rm -rf docs/
 mdsite build --input website --output docs/
+
+echo "Copying CNAME to docs/..."
+cp CNAME docs/
