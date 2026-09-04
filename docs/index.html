@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>index</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="syntax-rust.css">
+</head>
+<body>
+<header>
+<p><a href="index.md">Markdown source</a></p>
+</header>
+<main>
+<h1>mortimer.nl</h1>
+<p>My personal website, generated with a vibe coded Rust static content generator.</p>
+<h2>Articles</h2>
+<p><a href="articles/things_with_names.html">Things with names</a></p>
+<h2>More about me</h2>
+<pre class="code"><code><span class="source rust"><span class="meta function rust"><span class="meta function rust"><span class="storage type function rust">fn</span> </span><span class="entity name function rust">main</span></span><span class="meta function rust"><span class="meta function parameters rust"><span class="punctuation section parameters begin rust">(</span></span><span class="meta function rust"><span class="meta function parameters rust"><span class="punctuation section parameters end rust">)</span></span></span></span><span class="meta function rust"> </span><span class="meta function rust"><span class="meta block rust"><span class="punctuation section block begin rust">{</span>
+    <span class="storage type rust">let</span> me <span class="keyword operator rust">=</span> <span class="meta path rust">Person<span class="punctuation accessor rust">::</span></span>new<span class="meta group rust"><span class="punctuation section group begin rust">(</span><span class="string quoted double rust"><span class="punctuation definition string begin rust">&quot;</span>Mathijs Mortimer<span class="punctuation definition string end rust">&quot;</span></span></span><span class="meta group rust"><span class="punctuation section group end rust">)</span></span><span class="punctuation terminator rust">;</span>
+    me.<span class="support function rust">whoami</span><span class="meta group rust"><span class="punctuation section group begin rust">(</span></span><span class="meta group rust"><span class="punctuation section group end rust">)</span></span><span class="punctuation terminator rust">;</span>
+</span><span class="meta block rust"><span class="punctuation section block end rust">}</span></span></span>
+
+<span class="meta struct rust"><span class="storage type struct rust">struct</span> </span><span class="meta struct rust"><span class="entity name struct rust">Person</span> </span><span class="meta struct rust"><span class="meta block rust"><span class="punctuation section block begin rust">{</span>
+    <span class="variable other member rust">name</span><span class="punctuation separator rust">:</span> <span class="keyword operator rust">&amp;</span><span class="storage modifier lifetime rust">&#39;static</span> <span class="storage type rust">str</span>,
+</span><span class="meta block rust"><span class="punctuation section block end rust">}</span></span></span>
+
+<span class="meta impl rust"><span class="storage type impl rust">impl</span> </span><span class="meta impl rust"><span class="entity name impl rust">Person</span> </span><span class="meta impl rust"><span class="meta block rust"><span class="punctuation section block begin rust">{</span>
+    <span class="comment line documentation rust"><span class="punctuation definition comment rust">///</span> Who am I, what am I doing here?
+</span>    <span class="meta function rust"><span class="meta function rust"><span class="storage type function rust">fn</span> </span><span class="entity name function rust">new</span></span><span class="meta function rust"><span class="meta function parameters rust"><span class="punctuation section parameters begin rust">(</span><span class="variable parameter rust">name</span><span class="punctuation separator rust">:</span> <span class="keyword operator rust">&amp;</span><span class="storage modifier lifetime rust">&#39;static</span> <span class="storage type rust">str</span></span><span class="meta function rust"><span class="meta function parameters rust"><span class="punctuation section parameters end rust">)</span></span></span></span><span class="meta function rust"> <span class="meta function return-type rust"><span class="punctuation separator rust">-&gt;</span> <span class="storage type rust">Self</span></span> </span><span class="meta function rust"><span class="meta block rust"><span class="punctuation section block begin rust">{</span>
+        <span class="storage type rust">Self</span> <span class="meta block rust"><span class="punctuation section block begin rust">{</span> name </span><span class="meta block rust"><span class="punctuation section block end rust">}</span></span>
+    </span><span class="meta block rust"><span class="punctuation section block end rust">}</span></span></span>
+
+    <span class="comment line documentation rust"><span class="punctuation definition comment rust">///</span> Maybe the answer is here?
+</span>    <span class="meta function rust"><span class="meta function rust"><span class="storage type function rust">fn</span> </span><span class="entity name function rust">whoami</span></span><span class="meta function rust"><span class="meta function parameters rust"><span class="punctuation section parameters begin rust">(</span><span class="keyword operator rust">&amp;</span><span class="variable parameter rust">self</span></span><span class="meta function rust"><span class="meta function parameters rust"><span class="punctuation section parameters end rust">)</span></span></span></span><span class="meta function rust"> </span><span class="meta function rust"><span class="meta block rust"><span class="punctuation section block begin rust">{</span>
+        <span class="support macro rust">println!</span><span class="meta group rust"><span class="punctuation section group begin rust">(</span></span><span class="meta group rust"><span class="string quoted double rust"><span class="punctuation definition string begin rust">&quot;</span>Hi, I&#39;m <span class="constant other placeholder rust">{}</span>!<span class="punctuation definition string end rust">&quot;</span></span></span><span class="meta group rust"><span class="punctuation separator rust">,</span> <span class="variable language rust">self</span>.name<span class="punctuation section group end rust">)</span></span><span class="punctuation terminator rust">;</span>
+    </span><span class="meta block rust"><span class="punctuation section block end rust">}</span></span></span>
+</span><span class="meta block rust"><span class="punctuation section block end rust">}</span></span></span></span></code></pre>
+<h2>How to reach out?</h2>
+<p><a href="https://x.com/thiezn_">x.com</a></p>
+
+</main>
+</body>
+</html>
