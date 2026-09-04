@@ -2,6 +2,11 @@
 
 Infrastructure Surface Management will never be the same.
 
+- Data needs to be composed of the right primitives
+- Every application should be built for consumption by agents first
+- Deviations are always required, accountability is key
+- AI is transforming the industry but context and capabilities will be required for the foreeable future
+
 # things with names
 
 Naming things in computer science has always been hard. This holds especially true when we're talking about *host names*.
@@ -10,9 +15,10 @@ A hostname is often conflated with a FQDN, TLS SNI entry, HTTP Host, DNS zone, l
 
 # articles
 
-- [starting_a_company](articles/starting_a_company.html)
-
-- [things_with_names](articles/things_with_names.html)
+<ul class="directory-list">
+<li class="directory-entry"><div><a href="articles/starting_a_company.html">starting_a_company</a></div><time class="directory-date" datetime="2026-09-04T00:00:00Z">04-09-2026</time></li>
+<li class="directory-entry"><div><a href="articles/things_with_names.html">things_with_names</a></div><time class="directory-date" datetime="2026-09-04T00:00:00Z">04-09-2026</time></li>
+</ul>
 
 # mortimer.nl
 
