@@ -37,6 +37,6 @@ impl Person {
 }
 ```
 
-<a href="https://x.com/thiezn_"><img src="https://s.magecdn.com/social/tc-x.svg" width="16"></a>
-<a href="https://github.com/thiezn"><img src="https://s.magecdn.com/social/tc-github.svg" width="16"></a>
+<a href="https://x.com/thiezn_"><img src="https://s.magecdn.com/social/tc-x.svg" width="16" alt="x.com"></a>
+<a href="https://github.com/thiezn"><img src="https://s.magecdn.com/social/tc-github.svg" width="16" alt="GitHub"></a>
 
