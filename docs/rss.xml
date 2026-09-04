@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>mortimer.nl</title>
+    <description>Mathijs Mortimer's personal website</description>
+    <link>https://www.mortimer.nl</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Sep 2026 20:41:05 GMT</lastBuildDate>
+    <item>
+      <title>starting a company</title>
+      <description>starting a company</description>
+      <link>https://www.mortimer.nl/articles/starting_a_company.html</link>
+      <guid>https://www.mortimer.nl/articles/starting_a_company.html</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>things with names</title>
+      <description>things with names</description>
+      <link>https://www.mortimer.nl/articles/things_with_names.html</link>
+      <guid>https://www.mortimer.nl/articles/things_with_names.html</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>mortimer.nl</title>
+      <description>Mathijs Mortimer's personal website</description>
+      <link>https://www.mortimer.nl</link>
+      <guid>https://www.mortimer.nl</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

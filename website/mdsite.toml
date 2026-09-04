@@ -1,0 +1,10 @@
+[default]
+domain = "www.mortimer.nl"
+
+[llms]
+prefix = """# Welcome to www.mortimer.nl.
+
+This is my personal website. The following links point to every page on the site
+in markdown format:
+
+"""

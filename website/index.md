@@ -1,16 +1,22 @@
-# mortimer.nl
+---
+title: mortimer.nl
+description: Mathijs Mortimer's personal website
+publish_date: 2026-09-04
+footer: _Site generated with a vibe coded <a href="https://github.com/thiezn/mdsite">static content generator</a>_
+---
+My personal website.
 
-My personal website, generated with a vibe coded Rust static content generator.
+## articles
 
-## Articles
+[starting a company](articles/starting_a_company.html)
 
-[Things with names](articles/things_with_names.html)
+[things with names](articles/things_with_names.html)
 
-## More about me
+## more about me
 
 ```rust
 fn main() {
-    let me = Person::new("Mathijs Mortimer");
+    let me = Person::new("Mathijs");
     me.whoami();
 }
 
@@ -31,6 +37,6 @@ impl Person {
 }
 ```
 
-## How to reach out?
+<a href="https://x.com/thiezn_"><img src="https://s.magecdn.com/social/tc-x.svg" width="16"></a>
+<a href="https://github.com/thiezn"><img src="https://s.magecdn.com/social/tc-github.svg" width="16"></a>
 
-[x.com](https://x.com/thiezn_)

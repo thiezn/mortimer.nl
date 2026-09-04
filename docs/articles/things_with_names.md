@@ -1,4 +1,4 @@
-# Things with names
+# things with names
 
 Naming things in computer science has always been hard. This especially holds true when we're talking about *hostnames*.
 

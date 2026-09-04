@@ -1,0 +1,12 @@
+[Full site content](llms-full.txt): A full dump of every page on this site in one file.
+
+# Welcome to www.mortimer.nl.
+
+This is my personal website. The following links point to every page on the site
+in markdown format:
+
+
+- [articles/starting_a_company.md](articles/starting_a_company.md)
+- [articles/things_with_names.md](articles/things_with_names.md)
+- [articles.md](articles.md)
+- [index.md](index.md)

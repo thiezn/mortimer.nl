@@ -1,3 +1,19 @@
+# starting a company
+
+Infrastructure Surface Management will never be the same.
+
+# things with names
+
+Naming things in computer science has always been hard. This especially holds true when we're talking about *hostnames*.
+
+A hostname often is conflated with a FQDN, TLS SNI entry, HTTP Host, DNS zone, local hostfile mapping to IP address and a whole lot more. It's time someone writes an article about this to try and clear up the confusion...
+
+# articles
+
+- [starting_a_company](articles/starting_a_company.html)
+
+- [things_with_names](articles/things_with_names.html)
+
 # mortimer.nl
 
 My personal website.
@@ -35,4 +51,5 @@ impl Person {
 
 <a href="https://x.com/thiezn_"><img src="https://s.magecdn.com/social/tc-x.svg" width="16"></a>
 <a href="https://github.com/thiezn"><img src="https://s.magecdn.com/social/tc-github.svg" width="16"></a>
+
 
