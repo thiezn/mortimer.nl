@@ -39,4 +39,4 @@ impl Person {
 
 <a href="https://x.com/thiezn"><img src="https://s.magecdn.com/social/tc-x.svg" width="16" alt="x.com"></a>
 <a href="https://github.com/thiezn"><img src="https://s.magecdn.com/social/tc-github.svg" width="16" alt="GitHub"></a>
-
+<a href="https://www.linkedin.com/in/mathijs-mortimer"><img src="https://s.magecdn.com/social/tc-linkedin.svg" width="16" alt="LinkedIn"></a>
